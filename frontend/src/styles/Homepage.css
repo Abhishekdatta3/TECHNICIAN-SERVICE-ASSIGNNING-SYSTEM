@@ -1,0 +1,55 @@
+.hero-section {
+  background: linear-gradient(to bottom right, #ba086d, #eb7106);
+  padding: 60px 0;
+  color: white;
+  position: relative;
+}
+
+.hero-section .hero-content h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+
+.hero-section .hero-content p {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero-section img {
+  max-height: 360px;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.stats-card {
+  background: rgb(14, 208, 238);
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.stats-number {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.service-card {
+  border-radius: 16px;
+  transition: transform 0.3s ease;
+  border: none;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-icon {
+  width: 60px;
+  height: 60px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: rgb(88, 17, 17);
+  border-radius: 50%;
+  margin: auto;
+}

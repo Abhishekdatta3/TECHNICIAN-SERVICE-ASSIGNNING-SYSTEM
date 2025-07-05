@@ -1,0 +1,31 @@
+.booking-section {
+  background-color: #f9f9fc;
+  padding: 40px 20px;
+  border-radius: 20px;
+}
+
+.card-custom {
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.btn-primary-custom {
+  background-color: #2b7a78;
+  border-color: #2b7a78;
+  border-radius: 12px;
+  transition: background-color 0.3s;
+}
+
+.btn-primary-custom:hover {
+  background-color: #205e5b;
+  border-color: #205e5b;
+}
+
+.form-control, .form-select {
+  border-radius: 12px !important;
+}
+
+.card-header {
+  border-radius: 16px 16px 0 0;
+}
